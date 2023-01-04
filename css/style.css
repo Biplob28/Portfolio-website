@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(9, 8, 8);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 89px;
+
+}
+
+nav ul {
+    display: flex;
+    height: 10vh;
+    padding: 0 80px;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Prosto One', cursive;
+}
+
+nav ul li :hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    padding: 0 40px;
+    /* justify-content: space-between; */
+}
+
+.intro {
+    background-color: rgb(222, 222, 205);
+    display: inline-block;
+    width: 50%;
+    border-radius: 20px;
+    height: 467px;
+    text-align: center;
+    margin: 14px;
+}
+
+.intro .ps {
+    font-family: 'Seymour One', sans-serif;
+    padding: 171px;
+}
+
+.ps .fri {
+    font-weight: 600;
+    font-size: xx-large;
+    color: rgb(33, 34, 36)
+}
+
+.ps .sec {
+    font-weight: 300;
+    font-size: large;
+    color: rgb(33, 35, 38);
+}
+
+.ps button {
+    border-radius: 15px;
+    height: 45px;
+
+}
+
+.ps button:hover {
+    color: red;
+    transition: 1s;
+    border: 2px solid white;
+
+}
+
+.back-img img {
+    border-radius: 20px;
+    margin: 14px;
+    width: 569px;
+    height: 466px;
+
+
+}
+
+.back-img img:hover {
+    transition: 1s;
+}
+
+footer {
+    background-color: rgb(9, 8, 8);
+    /* height: 10vh; */
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Prosto One', cursive;
+
+}
+
+.last p {
+
+    margin: 20px;
+    font-size: medium;
+    font-weight: 400;
+
+}
+
+.last p:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+.last button {
+    /* color: black; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    border: solid;
+    font-family: 'Prosto One', cursive;
+
+}
+
+.last button:hover {
+    color: red;
+    transition: 0.5s;
+
+}
+
+.last-one {
+    display: flex;
+    justify-content: center;
+}
+
+.last-one ul {
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    height: 7vh;
+}
+
+.last-one ul li {
+    list-style: none;
+
+
+}
+
+.last-one ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Prosto One', cursive;
+
+
+}
+
+.last-one ul li :hover {
+    color: red;
+    transition: 1s;
+    border: 2px solid white;
+}
+
+/* ------CONTACT PART-------- */
+.hac {
+    background-color: black;
+    height: 609px;
+}
+
+.hac h5 {
+    color: white;
+    font-family: 'Prosto One', cursive;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.hac h5:hover {
+    color: red;
+    transform: 1s;
+
+}
+
+.two {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+}
+
+.two .contactme {
+    height: 489px;
+    display: grid;
+
+}
+
+.ppp {
+    display: grid;
+}
+
+.ppp img {
+    width: 651px;
+
+}
+
+.contactme .cme {
+    color: white;
+    font-family: 'Prosto One', cursive;
+
+}
+
+.cme input {
+    width: 180px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+}
+
+.cme2 label {
+    color: white;
+    font-family: 'Prosto One', cursive;
+
+}
+
+.cme2 input {
+    width: 180px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+.cme3 label {
+    color: white;
+    font-family: 'Prosto One', cursive;
+
+}
+
+.cme3 input {
+    width: 180px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.cme4 label {
+    color: white;
+    font-family: 'Prosto One', cursive;
+
+}
+
+.cme4 input {
+    width: 180px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.sub button {
+    /* color: white; */
+    border-radius: 7px;
+    height: 25px;
+}
+
+.sub button:hover {
+    color: red;
+    border: 2px solid red;
+    transition: 0.5s;
+}
+
+/* -----About Me------ */
+.bout {
+    background-color: black;
+    height: 609px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.abo h2 {
+    font-family: 'Prosto One', cursive;
+    color: white;
+    margin: 20px;
+}
+
+.abo p {
+    color: white;
+    font-family: 'Prosto One', cursive;
+    margin: 20px;
+    list-style: circle;
+}
+
+.abo {
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.itt {
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.itt img {
+    height: 200px;
+}
+
+.abo2 h2 {
+    font-family: 'Prosto One', cursive;
+    color: white;
+    margin: 20px;
+}
+
+.abo2 p {
+    color: white;
+    font-family: 'Prosto One', cursive;
+    margin: 20px;
+    list-style: circle;
+
+}
+
+.abo2 {
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+
+}
+
+.itt2 {
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.itt2 img {
+    height: 222px;
+}
+
+/* ----Education---- */
+nav .suii {
+    background-color: black;
+
+}
+
+.edu {
+    display: flex;
+    background-color: black;
+    height: 609px;
+    width: 100%;
+
+}
+
+.edu h2 {
+    display: flex;
+    font-family: 'Prosto One', cursive;
+    color: white;
+    margin: 20px;
+    /* justify-content: center; */
+    /* padding-left: 100px; */
+}
+
+.edu table {
+    margin: 20px;
+    padding: 20px;
+}
+
+.edu table tr th {
+    padding: 20px;
+    font-family: 'Prosto One', cursive;
+    color: white;
+}
+
+.edu table tr td {
+    padding: 20px;
+    font-family: 'Prosto One', cursive;
+    color: white;
+}
+
+/* ---skills & Experience */
+.ski {
+    background-color: black;
+    height: 609px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+
+}
+
+.sem h2 {
+    font-family: 'Prosto One', cursive;
+    color: white;
+    margin: 20px;
+}
+
+.sem p {
+    color: white;
+    font-family: 'Prosto One', cursive;
+    margin: 20px;
+    list-style: circle;
+}
+
+.sem {
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.sem2 h2 {
+    font-family: 'Prosto One', cursive;
+    color: white;
+    margin: 20px;
+}
+
+.sem2 p {
+    color: white;
+    font-family: 'Prosto One', cursive;
+    margin: 20px;
+    list-style: circle;
+}
+
+.sem2 {
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.tmm {
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.tmm img {
+    height: 222px;
+}
